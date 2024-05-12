@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=proximity'
+      - 'POSTGRES_PASSWORD=Pass1234'
+      - 'POSTGRES_USER=appuser'
+    ports:
+      - '5432'
