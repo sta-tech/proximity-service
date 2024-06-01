@@ -18,3 +18,13 @@ databaseChangeLog:
                   type: VARCHAR(100)
                   constraints:
                     nullable: false
+              - column:
+                  name: latitude
+                  type: DOUBLE
+                  constraints:
+                    nullable: false
+              - column:
+                  name: longitude
+                  type: DOUBLE
+                  constraints:
+                    nullable: false
