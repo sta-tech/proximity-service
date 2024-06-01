@@ -1,0 +1,1 @@
+curl "http://localhost:8080/v1/search/nearby?latitude=44.771203&longitude=20.454382&radiusMeters=3000"
