@@ -6,6 +6,7 @@ import me.evgenii.proximityservice.dto.NearbySearchResponse;
 import me.evgenii.proximityservice.services.NearbySearchService;
 import org.modelmapper.ModelMapper;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -21,7 +22,7 @@ public class NearbySearchController {
     }
 
     @GetMapping(path = "/nearby")
-    public NearbySearchResponse searchNearby(NearbySearchRequest request) {
+    public NearbySearchResponse searchNearby(@RequestBody NearbySearchRequest request) {
         var response = new NearbySearchResponse();
         response.setSize(1);
         response.setHasNext(false);

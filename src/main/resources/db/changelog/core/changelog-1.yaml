@@ -28,3 +28,8 @@ databaseChangeLog:
                   type: DOUBLE
                   constraints:
                     nullable: false
+              - column:
+                  name: geo_hash
+                  type: VARCHAR(100)
+                  constraints:
+                    nullable: false

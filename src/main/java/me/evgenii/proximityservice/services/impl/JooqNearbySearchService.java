@@ -14,7 +14,6 @@ public class JooqNearbySearchService implements NearbySearchService {
     private final DSLContext context;
 
     public JooqNearbySearchService(DSLContext context) {
-
         this.context = context;
     }
 

@@ -22,6 +22,7 @@ dependencies {
 	implementation("org.liquibase:liquibase-core")
 	implementation("org.jooq:jooq:3.19.9")
 	implementation("org.modelmapper:modelmapper:3.2.0")
+	implementation("ch.hsr:geohash:1.4.0")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	developmentOnly("org.springframework.boot:spring-boot-docker-compose")
 	runtimeOnly("org.postgresql:postgresql")
